@@ -9,5 +9,5 @@ A collection of workflows, methods, and observations gathered while building can
 
 ## 🇫🇷 Français
 
-- [Méthode de Construction de Personnages Canon](./Core-Workflow-FR.md)
-- [Méthode de Construction des Introductions et Démarrages](./canon-introduction-and-starter-workflow-FR.md)
+- [Méthode de Construction de Personnages Canon](./Core-Workflow-français.md)
+- [Méthode de Construction des Introductions et Démarrages](./création-introduction-démarrage-bot-canon-connecté-internet.md)
