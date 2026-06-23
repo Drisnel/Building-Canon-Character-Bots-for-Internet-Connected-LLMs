@@ -7,7 +7,21 @@ Use it after the character concept, setting logic, relationship frame, and behav
 
 The goal is to turn an original RP bot concept into a stable final script structure built for long-form play, progression, and resistance to generic model drift.
 
-Not every block is mandatory. Use only the blocks that are structurally relevant to the bot. Add character-specific modules whenever needed.
+Not every block is mandatory. Use only the blocks that are structurally relevant to the bot.
+
+This template is modular.
+Do not assume that relational, romantic, domestic, or intimacy-oriented sections are automatically the center of every bot.
+
+If the bot is primarily driven by another structure — such as combat, politics, leadership, religion, investigation, survival, professional duty, criminal logic, family hierarchy, magical systems, or another specialized axis — create dedicated specialized modules for that axis and place them where they belong in the bot’s actual behavioral hierarchy.
+
+A specialized module should be placed before relational or intimacy-oriented sections whenever it governs:
+- the character’s decisions
+- scene generation
+- conflict behavior
+- long-term continuity
+- or the overall shape of the bot more strongly than those sections do
+
+The template should reflect the bot’s real structure, not force every original character into the same order of importance.
 
 ---
 
@@ -130,6 +144,43 @@ It should help distinguish the character from generic archetypes with similar th
 
 ---
 
+## [SPECIALIZED MODULE]
+
+Optional. Repeat as needed.
+
+Use this block when a specialized structure is too behaviorally important to leave implicit, but too specific to fit cleanly inside the shared core blocks.
+
+Unlike a minor add-on, a specialized module can be one of the main structural centers of the bot.
+If it governs behavior more strongly than the relational blocks, place it before them.
+
+Examples:
+- combat structure
+- political function, diplomacy, governance, or power management
+- military conditioning or command hierarchy
+- criminal network logic or underworld structure
+- religious practice, ritual structure, taboo, or faith-based obligation
+- magical rules that directly shape behavior
+- chronic illness management or disability-related behavioral structure
+- public career, fame, media pressure, or reputation management
+- parenthood, household authority, or family hierarchy
+- species-specific instincts or supernatural drives
+- addiction structure
+- debt, coercion, or dependency structure
+- research, investigation, or operational logic
+- any other system that remains behaviorally active and repeatedly shapes scenes
+
+For each specialized module, define:
+- what it is
+- how it shapes decisions
+- how it shapes scene behavior
+- how it affects conflict, attachment, restraint, escalation, or vulnerability if relevant
+- what continuity it should preserve across scenes
+
+Do not use this block as a miscellaneous overflow section.
+If the content fits a core block, place it there instead.
+
+---
+
 ## [ROLE IN USER'S LIFE]
 
 Define the user’s role in the bot’s life and the starting relationship frame.
@@ -146,6 +197,8 @@ This block should anchor the relationship before the RP begins.
 ---
 
 ## [RELATIONAL MODEL]
+
+Optional if relational behavior is structurally important to the bot, or if the relationship with the user is one of the main engines of play.
 
 Describe how the character handles closeness and interpersonal attachment in practice.
 
@@ -194,11 +247,14 @@ Focus on the recurring sources of movement such as:
 - territoriality
 - guilt
 - curiosity
+- specialized obligations or structures tied to the bot’s world
 
 This block is one of the most important parts of an original bot script.
 
 It should answer:
 **Why does interaction keep happening with this character beyond surface attraction or small talk?**
+
+If the bot is mainly driven by a non-relational axis, that should be clearly visible here.
 
 ---
 
@@ -222,32 +278,6 @@ Examples:
 - routines, recurring spaces, recurring people
 
 This block prevents the character from floating in an empty void once the RP begins.
-
----
-
-## [CHARACTER-SPECIFIC MODULE]
-
-Optional. Repeat as needed.
-
-Use this block when something is too structurally important to leave implicit, but too specific to fit cleanly inside the shared blocks.
-
-Examples:
-- religious structure
-- chronic illness management
-- criminal network
-- public career
-- species-specific instincts
-- military conditioning
-- body horror theme
-- cult background
-- supernatural bond system
-- addiction structure
-- parenthood
-- debt and coercion
-- fame management
-- magical rules that directly shape behavior
-
-Only create these modules when they genuinely affect how the bot behaves in RP.
 
 ---
 
@@ -290,6 +320,8 @@ Include things like:
 - jealousy triggers
 - routines that become shared
 - consequences of intimacy, betrayal, fear, or reassurance
+- specialized pressures or systems that should remain active once they enter play
+- world consequences that should continue shaping later scenes
 
 This block protects long-form continuity and prevents the bot from resetting emotionally or relationally between scenes.
 
@@ -332,6 +364,8 @@ Focus on:
 - unresolved tension
 
 This block should make it clear what conflict *looks like* with this character and how conflict changes over time.
+
+If specialized modules materially affect conflict behavior, make sure the logic stays aligned with them.
 
 ---
 
@@ -400,6 +434,9 @@ State how the bot should create progression instead of replacing movement with:
 
 This block should define how the bot participates in forward motion.
 
+Make sure momentum reflects the bot’s real structure.
+If combat, politics, survival, investigation, leadership, work logic, criminal logic, family hierarchy, magical systems, or another specialized axis drives scenes more strongly than relational progression does, that should be visible here.
+
 ---
 
 ## [ANTI-GENERIC]
@@ -440,8 +477,10 @@ Examples:
 - emotional hesitation with no movement
 - repeatedly testing the same boundary without consequence
 - resetting intimacy, trust, or conflict progress after every scene
+- collapsing every scene back into the same relational beat while ignoring the bot’s other structural drivers
 
 Be specific to the character whenever possible.
+State what should happen instead if a pattern starts repeating.
 
 ---
 
@@ -489,5 +528,6 @@ Use this block for:
 - “do not reduce the character to…” warnings
 - reminders about tone, progression, specificity, or structural priorities
 - protection against generic softness, generic cruelty, generic trauma loops, generic dominance, or generic passivity
+- protection against over-prioritizing relational material while dropping the bot’s actual structural core
 
 This block should function as a final stabilization layer, not a summary of the entire script.
