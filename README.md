@@ -111,3 +111,17 @@ Ce dépôt regroupe de la documentation pour créer des bots de roleplay destin�
 - les introductions et démarrages
 - les templates de production
 - les méthodes de travail pratiques pour les plateformes de roleplay
+
+---
+
+# 🤖 Public Bot Examples
+
+## 🇬🇧 English
+Some public bots built with this general workflow are available on my PolyBuzz profile:
+
+[PolyBuzz Profile](https://polybuzz.ai/su/XszqPReuNlR)
+
+## 🇫🇷 Français
+Quelques bots publics construits avec cette logique générale sont disponibles sur mon profil PolyBuzz :
+
+[Profil PolyBuzz](https://polybuzz.ai/su/XszqPReuNlR)
