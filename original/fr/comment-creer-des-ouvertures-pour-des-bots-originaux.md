@@ -46,7 +46,7 @@ Elle doit soutenir le script, activer le script et rendre la prémisse jouable d
 
 ---
 
-# 0. Définir d’abord la prémisse
+# 1. Définir d’abord la prémisse
 
 Je ne commence pas par l’introduction.
 
@@ -88,7 +88,7 @@ Les trois doivent soutenir la même direction.
 
 ---
 
-# 1. L’introduction et le démarrage font partie de l’architecture du bot
+# 2. L’introduction et le démarrage font partie de l’architecture du bot
 
 Beaucoup de créateurs traitent l’introduction comme un simple texte de présentation et le démarrage comme un simple premier message.
 
@@ -122,7 +122,7 @@ Pas entrer en compétition avec elle.
 
 ---
 
-# 2. L’introduction et le démarrage n’ont pas le même rôle
+# 3. L’introduction établit. Le démarrage active.
 
 Pour les bots originaux, je ne traite pas l’introduction et le démarrage comme des éléments interchangeables.
 
@@ -132,21 +132,40 @@ Mais ils ne remplissent pas la même fonction.
 
 En général, je les pense ainsi :
 
-Introduction = contexte stable.
+**Introduction = contexte stable**  
+**Démarrage = démonstration active**
 
-Démarrage = démonstration active.
+L’introduction sert à poser :
 
-L’introduction sert à poser le cadre.
+- la prémisse
+- le rôle structurel du personnage
+- le rôle structurel de l’utilisateur
+- la situation déjà existante
+- les faits nécessaires pour comprendre la scène
+- le minimum d’univers requis pour que le setup soit lisible
 
-Le démarrage sert à l’activer.
+Le démarrage, lui, ne doit pas recommencer ce travail.
 
-Si j’essaie de faire faire aux deux la totalité du travail, l’ouverture devient souvent trop lourde, répétitive ou instable.
+Une fois la prémisse établie dans l’introduction, le démarrage doit partir de cette base et l’activer.
 
-Si je répartis clairement les rôles, le bot devient généralement plus facile à comprendre pour le modèle.
+Le démarrage peut s’appuyer sur les faits déjà posés.
+
+Il ne doit pas les résumer à nouveau.
+
+En pratique, j’évite d’utiliser le démarrage pour :
+
+- réexpliquer toute la prémisse
+- répéter le rôle de l’utilisateur si l’introduction l’a déjà établi clairement
+- résumer à nouveau le monde, le conflit, le mariage, la cohabitation ou l’arrangement déjà présentés
+- refaire un paragraphe de contexte avant de commencer la scène
+
+L’introduction établit ce qui existe.
+
+Le démarrage montre ce qui se passe maintenant à l’intérieur de cette réalité.
 
 ---
 
-# 3. Ce que je mets dans l’introduction
+# 4. Ce que je mets dans l’introduction
 
 J’utilise généralement l’introduction pour poser les éléments du setup qui doivent être compris avant que la scène ne commence.
 
@@ -170,7 +189,7 @@ Son rôle est de rendre la prémisse lisible.
 
 ---
 
-# 4. Ce que je mets dans le démarrage
+# 5. Ce que je mets dans le démarrage
 
 J’utilise le démarrage pour activer le bot.
 
@@ -193,7 +212,7 @@ Le démarrage doit montrer au modèle ce qui se passe.
 
 ---
 
-# 5. Poser des faits, pas des conclusions émotionnelles
+# 6. Poser des faits, pas des conclusions émotionnelles
 
 Je préfère poser des situations plutôt que définir des émotions.
 
@@ -236,7 +255,7 @@ Pas verrouiller le développement futur dans un état émotionnel prédéfini.
 
 ---
 
-# 6. Définir la structure de la relation, pas sa signification émotionnelle
+# 7. Définir la structure de la relation, pas sa signification émotionnelle
 
 Pour les bots originaux, la relation a souvent besoin d’être davantage structurée que dans un bot canon.
 
@@ -273,7 +292,7 @@ L’interprétation émotionnelle doit rester assez souple pour que l’histoire
 
 ---
 
-# 7. Établir juste assez d’univers pour rendre la scène lisible
+# 8. Établir juste assez d’univers pour rendre la prémisse lisible
 
 Un bot canon peut s’appuyer sur les connaissances préalables du joueur.
 
@@ -303,7 +322,7 @@ Pas exhaustif.
 
 ---
 
-# 8. Ne pas déporter le script dans l’ouverture
+# 9. Ne pas déporter le script dans l’ouverture
 
 C’est l’une des erreurs les plus faciles à faire avec un bot original.
 
@@ -338,7 +357,7 @@ Mais elle ne doit pas devenir un substitut compressé du cadre complet.
 
 ---
 
-# 9. Préférer le comportement observable à l’interprétation
+# 10. Préférer le comportement observable à l’interprétation
 
 Je préfère le comportement visible.
 
@@ -372,15 +391,11 @@ Plus un concept est important, plus il est utile de le convertir en comportement
 
 ---
 
-# 10. Introduire immédiatement le motif actif du personnage
+# 11. Introduire immédiatement le motif actif du personnage
 
 Le démarrage doit activer quelque chose de distinctif dès le premier message.
 
-Pour les personnages canons, c’est souvent simple, parce qu’ils ont déjà des éléments iconiques récurrents.
-
-Pour les personnages originaux, le principe reste le même.
-
-Le démarrage doit montrer un schéma récurrent qui appartient à ce personnage précis.
+Pour les bots originaux, je veux que le premier message montre un schéma récurrent qui appartient à ce personnage précis.
 
 Cela ne signifie pas forcément un gimmick spectaculaire ou une démonstration de pouvoir.
 
@@ -406,7 +421,7 @@ Le démarrage doit montrer au modèle un comportement qui devra rester pertinent
 
 ---
 
-# 11. Le démarrage doit démontrer le script
+# 12. Le démarrage doit démontrer le script
 
 Une erreur fréquente consiste à traiter le démarrage comme un simple résumé.
 
@@ -455,7 +470,36 @@ Le démarrage démontre immédiatement ce comportement.
 
 ---
 
-# 12. Créer immédiatement du mouvement
+# 13. Créer une scène jouable, pas un second résumé de la prémisse
+
+Le démarrage ne doit pas rester au niveau :
+
+« voici le concept du bot »
+
+Il doit déjà être au niveau :
+
+« voici la scène actuellement en cours dans ce concept »
+
+Je ne veux pas qu’il répète simplement :
+
+- pourquoi ils vivent ensemble
+- pourquoi ils sont liés
+- pourquoi ils doivent coopérer
+- pourquoi cet univers fonctionne comme ça
+
+Je veux qu’il montre comment cette réalité existe maintenant, dans la scène présente.
+
+Le joueur doit entrer dans un moment déjà exploitable.
+
+Pas dans un second paragraphe d’exposition.
+
+L’introduction pose la prémisse.
+
+Le démarrage doit déjà produire une scène.
+
+---
+
+# 14. Créer immédiatement du mouvement
 
 Le but n’est pas d’obtenir une conversation.
 
@@ -502,7 +546,43 @@ Pas dans une pièce vide.
 
 ---
 
-# 13. Créer une situation, pas un infodump de lore
+# 15. Le mouvement n’est pas toujours spectaculaire
+
+Créer du mouvement ne signifie pas forcément créer une crise, un incident bruyant, ou un événement spectaculaire.
+
+J’utilise au moins deux formes de démarrage.
+
+## A. Le démarrage à mouvement pratique
+
+Le personnage est déjà pris dans :
+
+- une tâche
+- une interruption
+- un retour
+- un problème concret
+- une décision déjà prise
+- un changement dans l’environnement
+
+## B. Le démarrage de présence active calme
+
+Le personnage est déjà présent dans l’espace.
+
+La routine, la proximité ou la situation existe déjà.
+
+La scène active :
+
+- un motif comportemental
+- une présence concrète
+- une observation qui devient action
+- un geste, une décision, une invitation ou une ligne courte qui ouvre immédiatement l’interaction
+
+Dans les deux cas, le personnage doit déjà agir.
+
+Le démarrage ne doit pas ouvrir sur une passivité décorative.
+
+---
+
+# 16. Créer une situation, pas un infodump de lore
 
 Je n’utilise presque jamais l’ouverture pour expliquer le monde en détail.
 
@@ -535,7 +615,41 @@ Pas en lisant une mini-encyclopédie.
 
 ---
 
-# 14. Faire attention à la dernière ligne de dialogue
+# 17. Ne pas choisir la scène la plus archétypale de la prémisse
+
+Une forte prémisse appelle souvent une scène archétypale évidente.
+
+Exemples :
+
+- vampire -> scène de prédation théâtrale
+- mariage arrangé -> première nuit tendue
+- garde du corps -> menace immédiate ou contrôle possessif
+- coloc forcée -> petite scène domestique vide qui ne montre rien d’autre que la cohabitation
+- personnage traumatisé -> crise émotionnelle immédiate
+- noble, mafieux, prince, chef de guerre -> domination générique à la place d’un vrai comportement spécifique
+
+Ce type de scène paraît souvent naturel.
+
+Mais il active facilement :
+
+- les automatismes du trope
+- les fallbacks archétypaux du personnage
+- des comportements génériques
+- une fausse intensité émotionnelle
+- une stagnation précoce
+
+Je ne choisis pas la scène d’ouverture parce qu’elle représente le trope le plus évident de la prémisse.
+
+Je la choisis parce qu’elle permet de démontrer :
+
+- la logique comportementale du personnage
+- la manière concrète dont la prémisse fonctionne
+- le type de scène que le bot doit produire
+- ce qui distingue ce personnage d’un archétype générique
+
+---
+
+# 18. Faire attention à la dernière ligne de dialogue
 
 La dernière ligne est souvent plus importante qu’elle n’en a l’air.
 
@@ -575,9 +689,19 @@ Mais beaucoup de LLM ont déjà une tendance naturelle à :
 
 L’ouverture ne devrait pas renforcer ces tendances, sauf si la scène l’exige réellement.
 
+La dernière ligne n’a pas besoin d’être spectaculaire.
+
+Elle doit surtout être :
+
+- jouable
+- non passive
+- cohérente avec le personnage
+- porteuse d’une direction
+- non interrogative si une alternative plus active existe
+
 ---
 
-# 15. Éviter d’enseigner la passivité
+# 19. Éviter d’enseigner la passivité
 
 Beaucoup d’ouvertures enseignent involontairement la passivité.
 
@@ -607,7 +731,7 @@ Le joueur ne doit pas avoir à porter toute la scène à lui seul.
 
 ---
 
-# 16. Ne pas forcer l’arc émotionnel dans l’ouverture
+# 20. Ne pas forcer l’arc émotionnel dans l’ouverture
 
 L’ouverture peut définir le setup.
 
@@ -640,7 +764,7 @@ Pas le paragraphe d’ouverture.
 
 ---
 
-# 17. Se souvenir que les personnages originaux déclenchent des fallbacks archétypaux
+# 21. Se souvenir que les personnages originaux déclenchent des fallbacks archétypaux
 
 Les ouvertures de bots canons peuvent réactiver des fallbacks fandom.
 
@@ -672,7 +796,7 @@ Un démarrage peut devenir un anti-script caché s’il renforce sans cesse le m
 
 ---
 
-# 18. Construire un premier ancrage mémoire quand la plateforme en bénéficie
+# 22. Construire un premier ancrage mémoire quand la plateforme en bénéficie
 
 Cette section dépend de la plateforme.
 
@@ -710,7 +834,7 @@ Je le traite comme une optimisation dépendante de la plateforme.
 
 ---
 
-# 19. Écrire pour la traduction
+# 23. Écrire pour la traduction
 
 Beaucoup de plateformes de roleplay traduisent automatiquement les contenus.
 
@@ -743,7 +867,7 @@ Le but est d’obtenir une interprétation cohérente.
 
 ---
 
-# 20. Le contexte est fixe. L’interprétation ne l’est pas.
+# 24. Le contexte peut être fixe. L’interprétation doit rester flexible.
 
 Je pose souvent :
 
@@ -771,7 +895,7 @@ Pas l’ouverture.
 
 ---
 
-# 21. Erreurs fréquentes dans les ouvertures de bots originaux
+# 25. Erreurs fréquentes dans les ouvertures de bots originaux
 
 Exemples fréquents :
 
@@ -789,6 +913,8 @@ Exemples fréquents :
 - décrire la personnalité au lieu de démontrer le comportement
 - surcharger l’ouverture avec du trauma au lieu d’une action présente
 - ne pas montrer ce qui distingue ce personnage d’un archétype générique
+- répéter la prémisse dans le démarrage au lieu de produire une scène
+- choisir la scène archétypale la plus évidente de la prémisse au lieu de la scène qui démontre réellement le bot
 
 Beaucoup de ces choix semblent utiles au moment de l’écriture.
 
@@ -796,7 +922,7 @@ Beaucoup deviennent des problèmes ensuite.
 
 ---
 
-# 22. Tester l’ouverture contre le script
+# 26. Tester l’ouverture contre le script
 
 Une fois l’ouverture terminée, je me pose plusieurs questions :
 
@@ -810,6 +936,8 @@ Une fois l’ouverture terminée, je me pose plusieurs questions :
 - La progression est-elle déjà possible ?
 - L’ouverture soutient-elle le script ?
 - L’ouverture essaie-t-elle de remplacer le script ?
+- Le démarrage répète-t-il inutilement ce que l’introduction a déjà posé ?
+- La scène choisie démontre-t-elle réellement le bot, ou seulement le trope de la prémisse ?
 - L’ouverture contredit-elle le rythme ou le modèle relationnel prévu ?
 
 L’introduction et le démarrage doivent renforcer l’architecture du bot.
